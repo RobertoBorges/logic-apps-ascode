@@ -2,12 +2,12 @@
   "managedApiConnections": {
     "office365": {
       "api": {
-        "id": "/subscriptions/9999999999/providers/Microsoft.Web/locations/eastus/managedApis/office365"
+        "id": "/subscriptions/3464f809-852d-45e3-846c-f5411419cc83/providers/Microsoft.Web/locations/eastus/managedApis/office365"
       },
       "connection": {
-        "id": "/subscriptions/99999999/resourceGroups/demola-rg/providers/Microsoft.Web/connections/office365"
+        "id": "/subscriptions/3464f809-852d-45e3-846c-f5411419cc83/resourceGroups/demola-rg/providers/Microsoft.Web/connections/office365"
       },
-      "connectionRuntimeUrl": "https://99999999/",
+      "connectionRuntimeUrl": "https://54002c3b8e49bf6e.03.common.logic-eastus.azure-apihub.net/apim/office365/0ba42ed650a549e183579baaeef3802a/",
       "authentication": {
         "type": "Raw",
         "scheme": "Key",
