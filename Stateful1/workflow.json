@@ -12,7 +12,7 @@
                     },
                     "method": "post",
                     "body": {
-                        "To": "admin@MngEnvMCAP008355.onmicrosoft.com",
+                        "To": "youremail@onmicrosoft.com",
                         "Subject": "Hello World",
                         "Body": "<p>This is a Message from Logic Apps</p>",
                         "Importance": "Normal"
