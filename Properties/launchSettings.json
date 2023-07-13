@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "logic_apps_ascode": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7008",
+      "launchBrowser": false
+    }
+  }
+}
