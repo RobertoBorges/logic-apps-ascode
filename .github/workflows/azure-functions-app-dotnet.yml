@@ -21,7 +21,10 @@ name: Deploy DotNet project to Azure Function App
 on:
   push:
     branches: ["master"]
-
+    
+permissions:
+      id-token: write
+      contents: read
 env:
   AZURE_LOGICAPP_NAME: ${{ secrets.AZURE_LOGICAPP_NAME }}   # set this to your function app name on Azure
   AZURE_LOGICAPP_PACKAGE_PATH: '.'                          # set this to the path to your function app project, defaults to the repository root
